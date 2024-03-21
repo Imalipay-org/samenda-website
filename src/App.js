@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
-import Footer from './Footer'
+// import './App.css';
+import Bottom from './Footer'
 import NavigationBar from './NavigationBar'
-import './App.css';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
         <NavigationBar></NavigationBar>
       </header>
 
-      <body className="App-body Width 100%">
+      <body className="App-body">
         <div>
           <h1>Sandbox as a Service</h1>
           <h2 className="color">for Africa's Digital Transformation</h2>
@@ -35,7 +37,7 @@ function App() {
           </section>
           <section>
             <p>For busidess enquiries reach out to</p>
-            <button>hello@samenda.io</button>
+            <Button>hello@samenda.io</Button>
           </section>
         </div>
 
@@ -43,7 +45,7 @@ function App() {
 
 
       <footer>
-        <Footer></Footer>
+        <Bottom></Bottom>
       </footer>
     </div>
 

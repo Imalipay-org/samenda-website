@@ -1,8 +1,10 @@
+import { Row } from 'react-bootstrap';
+
 function Footer() {
     return (
-      <div>
+      <Row>
         <p></p>
-      </div>
+      </Row>
     );
   }
   
