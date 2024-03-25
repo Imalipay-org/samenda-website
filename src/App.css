@@ -9,10 +9,6 @@
   pointer-events: none;
 }
 
-.App-header {
-  
-}
-
 .App-body {
   display: flex;
   flex-direction: column;
