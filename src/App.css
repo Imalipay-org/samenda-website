@@ -1,10 +1,21 @@
 body, html {
   height: 100%;
 }
+
 .bg {
   background-image: url(./Homepage.png);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw 100vh;
+}
+
+@media (max-width: 600px) {
+  .bg {
+    background-image: url(./Homepage-small.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
 }
