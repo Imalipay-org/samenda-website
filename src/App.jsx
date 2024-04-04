@@ -47,7 +47,7 @@ function App() {
           </div>
 
           <div>
-            <img src="./insurance.svg" alt="" className='w-20 mx-auto' />
+            <img src="./insurance.png" alt="" className='w-20 mx-auto' />
             <p className='text-white pt-1 font-light'>Insurance Companies</p>
           </div>
         </div>
@@ -59,7 +59,7 @@ function App() {
         <div className="w-full input-color rounded-[30px] mt-14 py-7">
           <p className='text-white pb-3'>For business enquiries reach out to:</p>
 
-          <div className='] text-white  mx-auto text-center p-2 rounded-[50px] text-2xl'>
+          <div className='text-white  mx-auto text-center p-2 rounded-[50px] text-2xl'>
             <button className='bg-[#3EE500] px-6 lg:px-16 py-1 rounded-[50px]'>
               hello@samenda.io
             </button>
